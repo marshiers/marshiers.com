@@ -1,4 +1,4 @@
-name: Deploy static production-ready content to GitHub Pages
+name: Build and deploy from source
 
 on:
   # Runs on pushes targeting the default branch
