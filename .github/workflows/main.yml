@@ -3,7 +3,9 @@ name: Build and deploy from source
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ['main']
+    paths: 'src/'
+  pull_request:
+    paths: 'src/'
 
   # Allows this workflow to run manually from the Actions tab
   workflow_dispatch:
