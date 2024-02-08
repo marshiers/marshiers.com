@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  font-family: "Inter", "Helvetica", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 1.5;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin-top: 25vh;
+  margin-inline: 12.5vw;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.left {
+  min-height: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.branding {
+  vertical-align: baseline;
+}
+
+.logo {
+  width: 5vw;
+  opacity: 0.5;
+}
+
+.toc-item {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.5em;
+       column-gap: 0.5em;
+}
+
+.toc-decoration {
+  height: 1em;
+}
+
+.toc-link {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "card-title card-thumbnail" "card-subtitle card-thumbnail" "card-description card-thumbnail";
+  align-items: start;
+}
+
+.card-title {
+  grid-area: card-title;
+}
+
+.card-subtitle {
+  grid-area: card-subtitle;
+}
+
+.card-description {
+  grid-area: card-description;
+}
+
+.card-thumbnail {
+  grid-area: card-thumbnail;
+}/*# sourceMappingURL=styles.css.map */
